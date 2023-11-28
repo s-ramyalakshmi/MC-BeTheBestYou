@@ -13,10 +13,10 @@ public class NavigationBar extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation_bar);
 
-        Button btnVitalsPage = findViewById(R.id.btnVitalsPage);
+        //Button btnVitalsPage = findViewById(R.id.btnVitalsPage);
         Button btnMentalHealthPage = findViewById(R.id.btnMentalHealthPage);
         Button btnPersonalGoalPage = findViewById(R.id.btnPersonalGoalPage);
-        Button btnResultsProgress = findViewById(R.id.btnResultsProgress);
+        //Button btnResultsProgress = findViewById(R.id.btnResultsProgress);
 
 
 
