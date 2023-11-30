@@ -103,7 +103,10 @@ public class UserInfoActivity extends AppCompatActivity {
                             " Loss_of_smell_or_taste REAL, " +
                             " cough REAL, " +
                             " shortness_of_breath REAL, " +
-                            " Feeling_tired REAL);");
+                            " Feeling_tired REAL, " +
+                            "anxiety_score REAL, " +
+                            "depression_score REAL);"
+                    );
                 }
             }
         } catch (SQLiteException e) {
