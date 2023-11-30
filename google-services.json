@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "222303019114",
+    "project_id": "bethebestyou-d8bae",
+    "storage_bucket": "bethebestyou-d8bae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222303019114:android:86040978f559dd70062a13",
+        "android_client_info": {
+          "package_name": "com.example.bethebestyou"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0M3-pAsgCQ1yBL9yzaCzP7ZBX1YlH0vQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
