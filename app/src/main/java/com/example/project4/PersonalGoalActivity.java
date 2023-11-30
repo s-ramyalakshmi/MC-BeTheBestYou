@@ -65,7 +65,6 @@ public class PersonalGoalActivity extends AppCompatActivity implements AdapterVi
         List<String> links = new ArrayList<>();
 
         if (selectedGoal.equals("Weight Loss")) {
-            links.add("https://www.google.com");
             links.add("https://www.youtube.com/watch?v=LhL5SNZfnQs");
             links.add("https://www.eatingwell.com/article/7905005/walking-for-weight-loss-plan/");
             links.add("https://www.womenshealthmag.com/uk/fitness/fat-loss/a34448055/walking-for-weight-loss/");
