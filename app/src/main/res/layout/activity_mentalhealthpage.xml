@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC0CB">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="386dp"
+            android:layout_height="74dp"
+            android:text=" Mental Well Being "
+            android:textColor="@color/black"
+            android:textSize="32dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.068" />
+
+        <Button
+            android:id="@+id/btnAnxietyQuest"
+            android:layout_width="399dp"
+            android:layout_height="92dp"
+            android:text="Feeling nervous, anxious or on edge. Not being able to stop or control worrying."
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.211" />
+
+        <EditText
+            android:id="@+id/AnxietyEditText"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:layout_marginBottom="44dp"
+            android:hint="Enter score from Anxiety Questionnaire"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toTopOf="@+id/btnDepressionQuest"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/btnDepressionQuest"
+            android:layout_width="413dp"
+            android:layout_height="96dp"
+            android:text="Little interest or pleasure in doing things. Feeling down, depressed or hopeless."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.577" />
+
+        <EditText
+            android:id="@+id/DepressionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:hint="Enter score from Depression Questionnaire"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnDepressionQuest"
+            app:layout_constraintVertical_bias="0.146" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="256dp"
+            android:layout_height="58dp"
+            android:layout_centerHorizontal="true"
+            android:padding="3dp"
+            android:text="Submit"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.419"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.907" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

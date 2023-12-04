@@ -4,8 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GoogleSignInActivity">
-    <!-- Add UI elements here, such as a Google Sign-In button -->
+    tools:context=".GoogleSignInActivity"
+    android:background="#FFC0CB">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/googleSignInButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="150dp"
+        android:text="BE THE BEST YOU"
+        android:textColor="@color/black"
+        android:textSize="40dp" />
+
     <com.google.android.gms.common.SignInButton
         android:id="@+id/googleSignInButton"
         android:layout_width="wrap_content"
