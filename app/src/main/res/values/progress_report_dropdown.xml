@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_items">
+        <item>weight</item>
+        <item>heart_rate</item>
+        <item>respiratory_rate</item>
+        <item>Nausea</item>
+        <item>Headache</item>
+        <item>Diarrhea</item>
+        <item>Soar_throat</item>
+        <item>Fever</item>
+        <item>Muscle_Ache</item>
+        <item>Loss_of_smell_or_taste</item>
+        <item>cough</item>
+        <item>shortness_of_breath</item>
+        <item>Feeling_tired</item>
+        <item>anxiety_score</item>
+        <item>depression_score</item>
+    </string-array>
+</resources>
