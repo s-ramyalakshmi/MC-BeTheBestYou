@@ -189,7 +189,7 @@ public class MainActivity extends AppCompatActivity {
         butn7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent mA2In = new Intent(view.getContext(), MainActivity2.class);
+                Intent mA2In = new Intent(view.getContext(), NavigationBar.class);
                 startActivity(mA2In);
             }
         });

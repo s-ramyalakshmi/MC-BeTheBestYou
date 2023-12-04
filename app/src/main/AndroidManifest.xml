@@ -38,6 +38,21 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".NavigationBar"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".PersonalGoalActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".MentalHealthActivity"
+            android:exported="false">
+        </activity>
+
         <service android:name=".AccelerometerService" />
         <service android:name=".HeartRateCalcService" />
 

@@ -18,6 +18,15 @@ public class NavigationBar extends AppCompatActivity {
         Button btnPersonalGoalPage = findViewById(R.id.btnPersonalGoalPage);
         Button btnResultsProgress = findViewById(R.id.btnResultsProgress);
 
+        btnVitalsPage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Start MentalHealthActivity when btnMentalHealthPage is clicked
+                Intent intent = new Intent(NavigationBar.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
 
         btnMentalHealthPage.setOnClickListener(new View.OnClickListener() {

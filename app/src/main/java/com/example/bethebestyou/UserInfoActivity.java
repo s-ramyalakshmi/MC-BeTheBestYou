@@ -58,7 +58,7 @@ public class UserInfoActivity extends AppCompatActivity {
         } else {
             Toast.makeText(this, "Please fill in all mandatory fields correctly.", Toast.LENGTH_SHORT).show();
         }
-        Intent intent = new Intent(UserInfoActivity.this, MainActivity.class);
+        Intent intent = new Intent(UserInfoActivity.this, NavigationBar.class);
         startActivity(intent);
     }
 
