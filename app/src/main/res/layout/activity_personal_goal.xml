@@ -12,7 +12,7 @@
         android:layout_height="123dp"
         android:text="Set Your Personal Goals Today!"
         android:textColor="@color/black"
-        android:textSize="32dp"
+        android:textSize="33dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
