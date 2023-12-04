@@ -184,6 +184,16 @@ public class MainActivity extends AppCompatActivity {
             }
         }, new IntentFilter("broadcastingHeartData"));
 
+        Button butn7 = (Button) findViewById(R.id.button7);
+
+        butn7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent mA2In = new Intent(view.getContext(), MainActivity2.class);
+                startActivity(mA2In);
+            }
+        });
+
     }
 
     public void startRecordingg()
