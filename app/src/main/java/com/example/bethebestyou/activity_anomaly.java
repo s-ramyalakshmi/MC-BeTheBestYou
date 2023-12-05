@@ -132,7 +132,7 @@ public class activity_anomaly extends AppCompatActivity {
 
                         if (cursor.moveToFirst()) {
                             @SuppressLint("Range") String name1 = cursor.getString(cursor.getColumnIndex("name"));
-                            @SuppressLint("Range") String phone = cursor.getString(cursor.getColumnIndex(selectedItem));
+                            @SuppressLint("Range") String phone = cursor.getString(cursor.getColumnIndex("emergency_contact"));
                             String message = "Hello! your friend"+name1+", is having abnormal health vitals, please check up on them";
                             try {
                                 SmsManager smsManager = SmsManager.getDefault();
