@@ -16,7 +16,8 @@ public class NavigationBar extends AppCompatActivity {
         Button btnVitalsPage = findViewById(R.id.btnVitalsPage);
         Button btnMentalHealthPage = findViewById(R.id.btnMentalHealthPage);
         Button btnPersonalGoalPage = findViewById(R.id.btnPersonalGoalPage);
-        Button btnResultsProgress = findViewById(R.id.btnResultsProgress);
+        Button btnResults = findViewById(R.id.btnResults);
+        Button btnProgress = findViewById(R.id.btnProgress);
 
         btnVitalsPage.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -47,7 +48,22 @@ public class NavigationBar extends AppCompatActivity {
             }
         });
 
-
+        btnResults.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Start PersonalGoalActivity when btnPersonalGoalPage is clicked
+                Intent intent = new Intent(NavigationBar.this, activity_anomaly.class);
+                startActivity(intent);
+            }
+        });
+        btnProgress.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Start PersonalGoalActivity when btnPersonalGoalPage is clicked
+                Intent intent = new Intent(NavigationBar.this, activity_progress_report.class);
+                startActivity(intent);
+            }
+        });
     }
 }
 

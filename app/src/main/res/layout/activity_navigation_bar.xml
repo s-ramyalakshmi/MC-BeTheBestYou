@@ -57,15 +57,27 @@
         app:layout_constraintVertical_bias="0.560" />
 
     <Button
-        android:id="@+id/btnResultsProgress"
+        android:id="@+id/btnResults"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="   Results and Progress Page   "
+        android:text=" Check your Health vital results "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.690" />
+    <Button
+        android:id="@+id/btnProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Track your progress   "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.820" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
