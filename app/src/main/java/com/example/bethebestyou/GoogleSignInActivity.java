@@ -57,6 +57,8 @@ public class GoogleSignInActivity extends AppCompatActivity {
                 startActivity(myIntent);
             } catch (ApiException e) {
                 Log.e("signinResult", ":failed code=" + e.getStatusCode());
+                Intent myIntent = new Intent(GoogleSignInActivity.this, UserInfoActivity.class);
+                startActivity(myIntent);
                 Snackbar.make(findViewById(R.id.googleSignInButton), "Sign-In failed", Snackbar.LENGTH_SHORT).show();
             }
         }
