@@ -89,7 +89,7 @@ public class activity_maps extends FragmentActivity implements OnMapReadyCallbac
             Log.e("place", receivedMessage );
         }
             fusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
-        Places.initialize(getApplicationContext(), "AIzaSyAd1dZViun2VSxUtNsXBH2hL2LEjcte0Ps");
+        Places.initialize(getApplicationContext(), "ENTER YOUR API KEY");
         placesClient = Places.createClient(this);
         TextView distanceTextView = findViewById(R.id.textView1);
         TextView durationTextView = findViewById(R.id.textView2);
